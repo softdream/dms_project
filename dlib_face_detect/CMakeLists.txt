@@ -2,6 +2,14 @@ CMAKE_MINIMUM_REQUIRED( VERSION 3.10.1 )
 
 PROJECT(face_test)
 
+# Set a default build type if none was specified
+IF(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
+	MESSAGE("Setting build type to 'RelWithDebInfo' as none was specified.")
+	SET(CMAKE_BUILD_TYPE RelWithDebInfo CACHE STRING "Choose the type of build." FORCE)
+  	# Set the possible values of build type for cmake-gui
+	SET_PROPERTY(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release" "MinSizeRel" "RelWithDebInfo")
+ENDIF()
+
 ADD_DEFINITIONS( -std=c++17 )
 
 #find required opencv
