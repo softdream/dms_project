@@ -15,10 +15,18 @@ ADD_DEFINITIONS( -std=c++17 )
 #find required opencv
 FIND_PACKAGE( OpenCV REQUIRED )
 
+# find required dlib
+FIND_PACKAGE( dlib REQUIRED )
+
 #directory of opencv headers
 INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
 
+# directory of dlib headers
+INCLUDE_DIRECTORIES( ${dlib_INCLUDE_DIRS} )
+
+# directory of this project
 INCLUDE_DIRECTORIES( "${PROJECT_SOURCE_DIR}/include" )
+
 
 AUX_SOURCE_DIRECTORY( ${PROJECT_SOURCE_DIR}/ src_file )
 
@@ -28,4 +36,4 @@ LINK_DIRECTORIES(${OpenCV_LIBRARY_DIRS})
 ADD_EXECUTABLE( face_test ${src_file} )
 
 TARGET_LINK_LIBRARIES( face_test ${OpenCV_LIBS} )
-TARGET_LINK_LIBRARIES( face_test libdlib.a )
+TARGET_LINK_LIBRARIES( face_test ${dlib_LIBRARIES} )

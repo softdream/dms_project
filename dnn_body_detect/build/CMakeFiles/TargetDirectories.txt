@@ -1,0 +1,3 @@
+/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles/rebuild_cache.dir
+/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles/edit_cache.dir
+/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles/body_detect.dir
