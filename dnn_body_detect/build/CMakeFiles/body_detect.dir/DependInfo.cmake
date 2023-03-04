@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/body_detect.cpp" "/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles/body_detect.dir/src/body_detect.cpp.o"
-  "/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/image_utils.cpp" "/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles/body_detect.dir/src/image_utils.cpp.o"
-  "/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/main.cpp" "/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles/body_detect.dir/src/main.cpp.o"
+  "/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/body_detect.cpp" "/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles/body_detect.dir/src/body_detect.cpp.o"
+  "/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/image_utils.cpp" "/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles/body_detect.dir/src/image_utils.cpp.o"
+  "/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/main.cpp" "/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles/body_detect.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect
+CMAKE_SOURCE_DIR = /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build
+CMAKE_BINARY_DIR = /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/body_detect.dir/clean
 CMakeFiles/body_detect.dir/all:
 	$(MAKE) -f CMakeFiles/body_detect.dir/build.make CMakeFiles/body_detect.dir/depend
 	$(MAKE) -f CMakeFiles/body_detect.dir/build.make CMakeFiles/body_detect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles --progress-num=1,2,3,4 "Built target body_detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles --progress-num=1,2,3,4 "Built target body_detect"
 .PHONY : CMakeFiles/body_detect.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/body_detect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/body_detect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles 0
 .PHONY : CMakeFiles/body_detect.dir/rule
 
 # Convenience name for target.

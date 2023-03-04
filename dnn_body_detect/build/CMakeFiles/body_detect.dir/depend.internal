@@ -7,7 +7,7 @@ CMakeFiles/body_detect.dir/src/body_detect.cpp.o
  ../include/dnn_node/dnn_node_data.h
  ../include/dnn_node/util/output_parser/detection/fasterrcnn_output_parser.h
  ../include/image_utils.h
- /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/body_detect.cpp
+ /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/body_detect.cpp
  /usr/include/opencv4/opencv2/calib3d.hpp
  /usr/include/opencv4/opencv2/core.hpp
  /usr/include/opencv4/opencv2/core/affine.hpp
@@ -140,7 +140,7 @@ CMakeFiles/body_detect.dir/src/image_utils.cpp.o
  ../include/dnn_node/dnn_node.h
  ../include/dnn_node/dnn_node_data.h
  ../include/image_utils.h
- /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/image_utils.cpp
+ /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/image_utils.cpp
  /usr/include/opencv4/opencv2/calib3d.hpp
  /usr/include/opencv4/opencv2/core.hpp
  /usr/include/opencv4/opencv2/core/affine.hpp
@@ -275,7 +275,7 @@ CMakeFiles/body_detect.dir/src/main.cpp.o
  ../include/dnn_node/dnn_node_data.h
  ../include/dnn_node/util/output_parser/detection/fasterrcnn_output_parser.h
  ../include/image_utils.h
- /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/main.cpp
+ /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/main.cpp
  /usr/include/opencv4/opencv2/calib3d.hpp
  /usr/include/opencv4/opencv2/core.hpp
  /usr/include/opencv4/opencv2/core/affine.hpp

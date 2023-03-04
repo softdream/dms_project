@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect
+CMAKE_SOURCE_DIR = /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build
+CMAKE_BINARY_DIR = /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/body_detect.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/body_detect.dir/flags.make
 
 CMakeFiles/body_detect.dir/src/body_detect.cpp.o: CMakeFiles/body_detect.dir/flags.make
 CMakeFiles/body_detect.dir/src/body_detect.cpp.o: ../src/body_detect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/body_detect.dir/src/body_detect.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/body_detect.dir/src/body_detect.cpp.o -c /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/body_detect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/body_detect.dir/src/body_detect.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/body_detect.dir/src/body_detect.cpp.o -c /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/body_detect.cpp
 
 CMakeFiles/body_detect.dir/src/body_detect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/body_detect.dir/src/body_detect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/body_detect.cpp > CMakeFiles/body_detect.dir/src/body_detect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/body_detect.cpp > CMakeFiles/body_detect.dir/src/body_detect.cpp.i
 
 CMakeFiles/body_detect.dir/src/body_detect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/body_detect.dir/src/body_detect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/body_detect.cpp -o CMakeFiles/body_detect.dir/src/body_detect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/body_detect.cpp -o CMakeFiles/body_detect.dir/src/body_detect.cpp.s
 
 CMakeFiles/body_detect.dir/src/image_utils.cpp.o: CMakeFiles/body_detect.dir/flags.make
 CMakeFiles/body_detect.dir/src/image_utils.cpp.o: ../src/image_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/body_detect.dir/src/image_utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/body_detect.dir/src/image_utils.cpp.o -c /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/image_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/body_detect.dir/src/image_utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/body_detect.dir/src/image_utils.cpp.o -c /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/image_utils.cpp
 
 CMakeFiles/body_detect.dir/src/image_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/body_detect.dir/src/image_utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/image_utils.cpp > CMakeFiles/body_detect.dir/src/image_utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/image_utils.cpp > CMakeFiles/body_detect.dir/src/image_utils.cpp.i
 
 CMakeFiles/body_detect.dir/src/image_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/body_detect.dir/src/image_utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/image_utils.cpp -o CMakeFiles/body_detect.dir/src/image_utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/image_utils.cpp -o CMakeFiles/body_detect.dir/src/image_utils.cpp.s
 
 CMakeFiles/body_detect.dir/src/main.cpp.o: CMakeFiles/body_detect.dir/flags.make
 CMakeFiles/body_detect.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/body_detect.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/body_detect.dir/src/main.cpp.o -c /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/body_detect.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/body_detect.dir/src/main.cpp.o -c /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/main.cpp
 
 CMakeFiles/body_detect.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/body_detect.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/main.cpp > CMakeFiles/body_detect.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/main.cpp > CMakeFiles/body_detect.dir/src/main.cpp.i
 
 CMakeFiles/body_detect.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/body_detect.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/src/main.cpp -o CMakeFiles/body_detect.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/src/main.cpp -o CMakeFiles/body_detect.dir/src/main.cpp.s
 
 # Object files for target body_detect
 body_detect_OBJECTS = \
@@ -138,6 +138,7 @@ body_detect: /usr/lib/aarch64-linux-gnu/libopencv_videostab.so.4.2.0
 body_detect: /usr/lib/aarch64-linux-gnu/libopencv_viz.so.4.2.0
 body_detect: /usr/lib/aarch64-linux-gnu/libopencv_xobjdetect.so.4.2.0
 body_detect: /usr/lib/aarch64-linux-gnu/libopencv_xphoto.so.4.2.0
+body_detect: /usr/lib/aarch64-linux-gnu/libdlib.a
 body_detect: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.2.0
 body_detect: /usr/lib/aarch64-linux-gnu/libopencv_datasets.so.4.2.0
 body_detect: /usr/lib/aarch64-linux-gnu/libopencv_plot.so.4.2.0
@@ -157,8 +158,19 @@ body_detect: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.2.0
 body_detect: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.2.0
 body_detect: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.2.0
 body_detect: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.2.0
+body_detect: /usr/lib/aarch64-linux-gnu/libSM.so
+body_detect: /usr/lib/aarch64-linux-gnu/libICE.so
+body_detect: /usr/lib/aarch64-linux-gnu/libX11.so
+body_detect: /usr/lib/aarch64-linux-gnu/libXext.so
+body_detect: /usr/lib/aarch64-linux-gnu/libpng.so
+body_detect: /usr/lib/aarch64-linux-gnu/libz.so
+body_detect: /usr/lib/aarch64-linux-gnu/libjpeg.so
+body_detect: /usr/lib/aarch64-linux-gnu/libatlas.so
+body_detect: /usr/lib/aarch64-linux-gnu/libcblas.so
+body_detect: /usr/lib/aarch64-linux-gnu/liblapack.so
+body_detect: /usr/lib/aarch64-linux-gnu/libsqlite3.so
 body_detect: CMakeFiles/body_detect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable body_detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable body_detect"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/body_detect.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -171,6 +183,6 @@ CMakeFiles/body_detect.dir/clean:
 .PHONY : CMakeFiles/body_detect.dir/clean
 
 CMakeFiles/body_detect.dir/depend:
-	cd /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/CMakeFiles/body_detect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/CMakeFiles/body_detect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/body_detect.dir/depend
 

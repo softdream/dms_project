@@ -79,9 +79,9 @@ int main(int argc, char *argv[])
     while( 1 ) {
     	cap >> frame;
 
-	cv::cvtColor(frame, frame, CV_BGR2GRAY);
+	cv::cvtColor(frame, frame, cv::COLOR_BGR2GRAY);
 
-	//cv::resize( frame, frame, cv::Size(640, 360) );
+	cv::resize( frame, frame, cv::Size(960, 544) );
 
 	//Mat转化为dlib的matrix
     	dlib::array2d<dlib::bgr_pixel> dimg;

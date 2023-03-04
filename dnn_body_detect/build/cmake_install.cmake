@@ -1,4 +1,4 @@
-# Install script for directory: /home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect
+# Install script for directory: /home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sunrise/workstation/dnn_projects/sunrise_X3_BPU/dnn_body_detect/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sunrise/workstation/dms_projects/dms_project/dnn_body_detect/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
