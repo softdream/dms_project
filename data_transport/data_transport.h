@@ -19,49 +19,6 @@
 #include <arpa/inet.h>
 
 
-typedef struct SelfCarInfo_
-{
-	SelfCarInfo_()
-	{
-
-	}
-
-	SelfCarInfo_( const float velocity_,
-		      const float accel_,
-		      const float decel_,
-		      const int brake_,
-		      const int llight_,
-		      const int rlight_,
-		      const float alpha_,
-		      const float steering_ )
-		: 	
-			velocity( velocity_ ),
-			accel( accel_ ),
-			decel( decel_ ),
-			brake( brake_ ),
-			llight( llight_ ),
-			rlight( rlight_ ),
-			alpha( alpha_ ),
-			steering( steering_ )
-	{
-
-	}
-	
-	bool isSame( const SelfCarInfo_& data ) const
-	{
-		return data.velocity == velocity && data.accel == accel && data.decel == decel && data.brake == brake && llight == llight && data.rlight == rlight && data.alpha == alpha && data.steering == steering;
-	}
-
-	float velocity = 0;
-	float accel = 0;
-	float decel = 0;
-	int brake = 0;
-	int llight = 0;
-	int rlight = 0;
-	float alpha = 0;
-	float steering = 0;
-}SelfCarInfo;
-
 namespace transport
 {
 
@@ -299,6 +256,11 @@ public:
 		
 		memcpy( buffer, &data, sizeof(data) );
 		this->write( buffer, sizeof(data), 2555 );
+	}
+
+	void sendStr( const std::string& str )
+	{
+		this->write( str.data(), str.length(), 2335 );
 	}
 };
 
